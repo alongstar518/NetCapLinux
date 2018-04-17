@@ -1,0 +1,2 @@
+kenn@kenn-Virtual-Machine:~/Projects/NetCap/src$ ~/BRCMToolChain/stbgcc-4.8-1.2/bin/arm-linux-gnueabihf-gcc NetCap.c -o NetCap -I/usr/include -lpcap -lpthread -L/home/kenn/Projects/NetCap/lib
+

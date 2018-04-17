@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kenn/Projects/NetCap/Include/pcap.h
+pcap-stdinc.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+sys/time.h
+-
+pcap/bpf.h
+-
+stdio.h
+-
+Win32-Extensions.h
+-
+
+/home/kenn/Projects/NetCap/Include/pcap/bpf.h
+
+/home/kenn/Projects/NetCap/src/NetCap.c
+stdio.h
+-
+pthread.h
+/home/kenn/Projects/NetCap/src/pthread.h
+pcap.h
+/home/kenn/Projects/NetCap/src/pcap.h
+
